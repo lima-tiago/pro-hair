@@ -222,7 +222,7 @@ p.mascara {
   padding-top: 70px;
   padding-bottom: 70px;
   color: #fff !important;
-  background-image: linear-gradient(45deg, #c1265b 50%, #00fff0);
+  background-color: #ef5897;
 }
 
 .tertiary-section h1, 
@@ -280,7 +280,7 @@ p.mascara {
   }
 
   #beneficios img{
-    max-width: 50% !important;
+    max-width: 100% !important;
   }
 
   .produto{
@@ -878,6 +878,28 @@ footer hr{
   color: #fff !important; 
 }
  @media screen and (max-width: 800px) {
+   .header {
+     width: 100%;
+     margin: 0;
+   }
+   .header .my-auto .col-sm-3 {
+     width: 25%;
+     padding: 0 2px;
+     z-index: 999;
+     margin-bottom: 20px;
+   }
+   .header .my-auto .col-sm-3 p {
+     line-height: 18px;
+     margin: 0;
+     transform: rotate(-20deg);
+     font-family: 'Sacramento', cursive;
+     font-size: 20px;
+     font-weight: 550;
+   }
+   .header .my-auto .col-sm-3 img.arrow {
+     width: auto;
+     height: 40px;
+   }
    .list-beneficios {
      margin-right: -15px;
      margin-left: -15px;
@@ -891,6 +913,9 @@ footer hr{
      margin: 0;
      padding: 0;
      margin-bottom: 50px;
+   }
+   .kit img {
+     width: 100%;
    }
    .list-beneficios img {
      margin: 40px auto 40px auto !important;
