@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Políticas de Privacidade - Line Hair</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content ="Wesley Carçado">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    
+    <!-- Theme CSS --- O QUE PRECISAR PERSONALIZAR QUE NÃO ESTIVER ESPECIFICADO NO COMPONENTE, PODE SER ALTERADO NESTE ARQUIVO! -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    
+    <!-- Countdown CSS -->
+    <link rel="stylesheet" href="css/counteverest.css">
+    
+    <!-- Font Awesome CDN -->
+    <script src="https://use.fontawesome.com/a6790ace8e.js"></script>
+    
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
+    
+    <!-- CountDown -->
+    <script  type="text/javascript" src="js/countdown.js"></script>  
+  </head>
+  <body data-spy="scroll" data-target="#navbar">
+    <!-- As a link -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light navbar-custom">
+      <div class="container">
+        <a href="index.html" style="font-size: 48px; margin: 0 auto !important;"><img class="img-fluid" src="../img/logo.png" style="max-width: 150px;"></a>
+      </div>
+    </nav>
+    
+    <div id="termos" class="light-section">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>Politicas de Privacidade</h1>
+            
+            <p>Nós respeitamos a sua informação</p>
+            
+            <p>A Política de Privacidade do <strong>Line Hair</strong> foi formulada com o intuito de manter a privacidade e a segurança das informações coletadas de nossos clientes e usuários.</p>
+            
+            <p>A política de privacidade estabelecida pelo <strong>Line Hair</strong> compreende a forma como as informações capazes de identificar nossos clientes e usuários são armazenadas e utilizadas, sejam as coletadas diretamente em nosso site, consultas ao serviço de atendimento ao cliente ou cadastro para recebimento de promoções ou newsletter.</p>
+            
+            <p>As informações de contato dos clientes e usuários poderão ser utilizados para campanhas publicitárias do <strong>Line Hair</strong> que enviará informações sobre os serviços, através de mensagens publicitárias como promoções, dicas, divulgação de parceiros e clientes que possam agregar algum valor ou interesse aos nossos assinantes.</p>
+            
+            <p><strong>Line Hair</strong> trarão, em seus comunicados, newsletters, ofertas e mensagens publicitárias enviadas por e-mail a opção de cancelamento do envio deste tipo de mensagem. A solicitação será atendida no tempo mínimo necessário para sua execução.</p>
+            
+            <p>Sob nenhuma circunstância o <strong>Line Hair</strong> divulgarão ou comercializarão informações pessoais ou dados cadastrais de seus clientes e usuários a terceiros.</p>
+            
+            <p>Para maiores informações sobre nossas políticas de privacidade, contate-nos por e-mail: <a href="mailto:contato@linehair.com.br" target="_blank">contato@linehair.com.br</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="dark-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <p><small>Line Hair - LCS Negócios | CNPJ: 22.447.711/0001-41</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- Bootstrap JavaScript -->     
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+      
+      
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          var form = document.getElementById('contactForm');
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        }, false);
+      })();
+    </script>  
+    
+    <!-- Fancybox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    
+    <!-- Form Validation Javascript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    
+    <script>
+      (function($) {
+        "use strict"; // Start of use strict
+
+        // Smooth scrolling using jQuery easing
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: (target.offset().top)
+              }, 1000, "easeInOutExpo");
+              return false;
+            }
+          }
+        });
+        
+        // Closes responsive menu when a scroll trigger link is clicked
+        $('.js-scroll-trigger').click(function() {
+          $('.navbar-collapse').collapse('hide');
+        });
+      })(jQuery); // End of use strict
+	</script>
+    
+  </body>
+</html>
