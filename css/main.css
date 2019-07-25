@@ -469,8 +469,15 @@ nav .btn-yellow{
   /* background-color: #cfff0e; */
   background-color: #09d261;
   color: #fff !important;
-  padding: 20px 40px;
+  padding: 20px 10px;
   font-size: 18px;
+  width: max-content;
+  margin: auto;
+}
+.btn-green h3 {
+  font-size: 18px;
+  width: max-content;
+  margin: auto;
 }
 
 .btn-green:hover{
@@ -657,7 +664,7 @@ h6 .lead{
 }
 
 .kit img {
-  width: 80%;
+  width: 100%;
   height: auto !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -685,8 +692,9 @@ h6 .lead{
   border-radius: 10px;
   background: #64d362;
   color: #fff;
-  padding: 10px 70px;
+  padding: 20px 70px;
   font-size: 26px;
+  width: 100%;
 }
 .kit a.btn:hover {
   background: #5CA82C;
