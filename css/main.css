@@ -717,6 +717,11 @@ strong,
 .strong{
   font-weight: 500 !important;
 }
+.subCopy {
+  font-size: 30px;
+  color: #c1265b !important;
+  font-weight: 500;
+}
 
 .img-rounded{
   border-radius: 15px;
